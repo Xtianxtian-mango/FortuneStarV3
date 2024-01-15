@@ -1,0 +1,178 @@
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden; /* To hide horizontal scroll */
+}
+
+p,
+select,
+input,
+label {
+  font-family: "Inter", sans-serif;
+}
+
+i {
+  font-family: "Inter", sans-serif;
+  line-height: 0;
+}
+p,
+a {
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+
+a {
+  color: #002c3f;
+  font-weight: 600;
+}
+
+.h1 {
+  color: #fff !important;
+  /* color: #086434 !important; */
+  line-height: 1.1 !important;
+  font-size: 5.3rem;
+  letter-spacing: 1px;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.p1 {
+  font-size: 1.7rem !important;
+  margin-bottom: 3.2rem;
+  color: #ffffff;
+  line-height: 1.5;
+}
+.p2 {
+  font-size: 1.3rem;
+}
+
+.h2 {
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.h3 {
+  font-size: 2.2rem;
+  display: block;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.p3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+
+.h4 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.p4 {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+/* calculator */
+.result {
+  letter-spacing: 0.15px;
+  font-size: 2.8rem;
+  color: #086434;
+  font-weight: bold;
+  border-bottom: 1px solid #e2e1e1;
+}
+
+#result,
+#cash {
+  color: #ffb000;
+}
+.emi--result {
+  letter-spacing: 0.15px;
+  font-size: 1.5rem !important;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.calculator--heading {
+  background-color: #06502a;
+  padding: 1.4rem 0;
+  text-align: center;
+  color: #fff !important;
+}
+
+.calculator--heading--gold {
+  background-color: #ffb000;
+  padding: 1.4rem 0;
+  text-align: center;
+  color: #fff !important;
+}
+
+/*  */
+span {
+  color: #ffb000;
+}
+.fontw__200 {
+  font-weight: 300;
+}
+.color__white {
+  color: #fff !important;
+}
+.color__black {
+  color: #000 !important;
+}
+
+.link {
+  font-size: 1.4rem;
+  color: #55c57a !important;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #55c57a;
+}
+
+/* logo */
+.logo {
+  font-family: "Rubik", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.p--logo {
+  display: inline-block;
+  color: #004225;
+}
+
+/* footer */
+.footer__heading {
+  font-size: 2rem !important;
+  color: #fff !important;
+  margin-bottom: 3rem;
+}
+
+.footer__text {
+  font-size: 1.4rem !important;
+  color: #fff !important;
+  margin-bottom: 2.5rem;
+}
+.footer__link {
+  font-size: 1.4rem !important;
+  color: #fff !important;
+  margin-bottom: 1rem;
+}
+
+.footer__description {
+  font-size: 1.2rem !important;
+  color: #fff !important;
+}
+
+/* steps */
+.step__number {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #254953;
+}

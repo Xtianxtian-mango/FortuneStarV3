@@ -1,0 +1,53 @@
+.about__us--bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url(img/feature.jpg);
+  /* background-color: #064624; */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.p-about {
+  margin: 2.4rem 0;
+}
+
+.calculator--heading--about {
+  text-align: center;
+}
+
+.about__feature {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  margin-bottom: 1.2rem;
+}
+
+.about__features {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #0f4332;
+}
+
+/* company profile */
+.company--img {
+  width: 9.4rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.about__heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.about__profile {
+  font-size: 1.3rem;
+}
+
+.about__icon {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}

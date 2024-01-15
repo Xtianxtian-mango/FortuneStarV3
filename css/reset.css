@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+input {
+  outline: none;
+}
+
+.img {
+  width: 100%;
+}
+
+/* center heading */
+.center--heading {
+  max-width: 78rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.icon {
+  font-size: 6rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  color: #7ed56f;
+  vertical-align: middle;
+}
+
+.apply__icon {
+  font-size: 3rem;
+  color: #7ed56f;
+}

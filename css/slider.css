@@ -1,0 +1,31 @@
+.testimonial--slider {
+  padding: 0 2.5rem;
+}
+
+.testimonial__img {
+  width: 8.4rem;
+  border-radius: 50%;
+}
+
+.testimonal__icon {
+  display: inline-block;
+  font-size: 2.8rem;
+  color: #086434;
+}
+.testimonial__paragraph {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.testimonial__name {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.testimonial__company {
+  font-size: 1.3rem;
+}
+
+/* slider */
+.carousel slide {
+  position: relative;
+}

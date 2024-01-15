@@ -1,0 +1,64 @@
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px/16px */
+    font-size: 56.25% !important;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50% !important;
+  }
+}
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  html {
+    /* 7px /16px = 0.4375 = 43.75% */
+    font-size: 43.75% !important;
+  }
+}
+
+/**************************/
+/* BELOW 425px (Phones) */
+/**************************/
+
+@media (max-width: 27em) {
+  html {
+    /* 7px /16px = 0.4375 = 43.75% */
+    font-size: 43.75% !important;
+  }
+}
+/**************************/
+/* BELOW 375px (Phones) */
+/* Good no adjustment */
+/**************************/
+
+@media (max-width: 21em) {
+  html {
+    /* font-size: 6px */
+    font-size: 37.5% !important;
+  }
+}
+
+/**************************/
+/* BELOW 320px (Phones) */
+/**************************/
+
+@media (max-width: 21em) {
+  html {
+    /* font-size: 6px */
+    font-size: 37.5% !important;
+  }
+}

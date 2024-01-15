@@ -1,0 +1,33 @@
+.nav-link,
+.dropdown-menu {
+  font-size: 1.7rem;
+  padding-left: 2rem;
+}
+
+.dropdown-menu,
+.btn-outline-success {
+  margin-left: 2rem;
+}
+
+.btn-outline-success {
+  margin-top: 2rem;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+.nav__contant {
+  display: inline-block;
+  font-size: 1.6rem;
+  margin-left: 0.6rem;
+}
+
+.nav__contact-list {
+  padding: 0.5rem 0;
+}
+
+.nav__contact-schedule {
+  font-size: 1.4rem;
+  color: #a8adb2;
+}

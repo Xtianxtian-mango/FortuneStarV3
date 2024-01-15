@@ -1,0 +1,49 @@
+.hero__calculator {
+  width: 100% !important;
+  align-self: start;
+  justify-self: center;
+  background-color: #fff;
+  width: 43rem;
+  padding: 2.7rem;
+  z-index: 999;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.cal__label {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 0.6rem;
+}
+.cal__input {
+  font-size: 1.4rem;
+  font-family: inherit;
+  padding: 1rem 1.5rem;
+  background-color: rgba(225, 225, 225, 0.9);
+  border: none;
+  width: 100%;
+  display: block;
+  border-bottom: 4px solid transparent;
+  outline: none;
+}
+
+.cal__group {
+  margin-bottom: 1.5rem;
+}
+
+/* for select apperance */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+}
+
+.cal__footer {
+  padding-top: 0.8rem;
+}

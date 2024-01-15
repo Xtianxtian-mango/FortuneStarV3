@@ -1,0 +1,9 @@
+.flexcontent--center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  gap: 2rem;
+}

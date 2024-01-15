@@ -1,0 +1,17 @@
+.footer--section {
+  background-color: #006732ff;
+}
+
+footer {
+  color: #fff !important;
+}
+
+.footer__icon {
+  color: #fff !important;
+  font-size: 2rem;
+}
+
+.footer__img {
+  display: block;
+  margin-bottom: 3.2rem;
+}

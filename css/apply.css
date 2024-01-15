@@ -1,0 +1,6 @@
+.apply__icon-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,94 @@
+@keyframes moveInleft {
+  0% {
+    opacity: 0;
+    /* negative becuase in x-axis it moves to the left */
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.animation--left {
+  animation: moveInleft 1s ease-out;
+}
+
+@keyframes moveInright {
+  0% {
+    opacity: 0;
+    /* positive because in x-axis it moves to the right */
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.animation--right {
+  animation: moveInright 1s ease-out;
+}
+
+@keyframes moveInbottom {
+  0% {
+    opacity: 0;
+    /* positive because in x-axis it moves to the right */
+    transform: translatey(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.animation-bottom {
+  animation: moveInbottom 1s ease-out;
+}
+
+@keyframes moveInbottom--1 {
+  0% {
+    opacity: 0;
+    /* positive because in x-axis it moves to the right */
+    transform: translateY(3rem);
+  }
+
+  80% {
+    transform: translateY(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.animation-bottom--1 {
+  animation: moveInbottom--1 1s ease-in-out;
+}
+
+@keyframes moveIntop {
+  0% {
+    opacity: 0;
+    /* positive because in x-axis it moves to the right */
+    transform: translateY(10rem);
+  }
+
+  80% {
+    transform: translateY(2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(-1rem);
+  }
+}
+
+.animation-top {
+  animation: moveIntop 1s ease-out;
+}
